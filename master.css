@@ -6,21 +6,22 @@
 
 
 .conteiner{
-    width: 900px;
+    width: 950px;
     min-height: 200px;
     background: rgb(254, 254, 254);
     margin: auto;
     margin-top: 70px;
 }
-
+.card{
+    display: inline-block;
+    width: 33%;
+    margin-bottom: 5px;
+}
 
 .box-immagini{
-    width: 33%;
-    
+    width: 100%;
     position: relative;
-    display: inline-block;
-
-
+    
 }
 .immagine{
     width: 100%;
@@ -37,8 +38,14 @@
 
 }
 
+.price{
+    color: red;
+    font-weight: bold;
+}
 
-
+.sconto{
+    text-decoration: line-through;
+}
 .targ{
     background: rgba(91, 255, 14, 0.808);
     position: absolute;
@@ -65,8 +72,20 @@
     height: 100%;
     display: none;
 }
-.box-immagini:hover .overlay{
+.card:hover .overlay{
     display: block;
     background: rgba(0, 0, 0, .6);
 }
 
+
+
+.caratteristiche{
+  width: 100%;
+}
+
+#targ-special{
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+
+}
