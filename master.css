@@ -7,6 +7,66 @@
 
 .conteiner{
     width: 900px;
-    min height: 200px;
-     
+    min-height: 200px;
+    background: rgb(254, 254, 254);
+    margin: auto;
+    margin-top: 70px;
 }
+
+
+.box-immagini{
+    width: 33%;
+    
+    position: relative;
+    display: inline-block;
+
+
+}
+.immagine{
+    width: 100%;
+}
+
+.sconti{
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    background: rgba(255, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 2px;
+
+}
+
+
+
+.targ{
+    background: rgba(91, 255, 14, 0.808);
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+    padding: 5px;
+    color: white;
+
+}
+
+.cuore{
+    background: white;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    padding: 10px;
+}
+
+.box-immagini .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.box-immagini:hover .overlay{
+    display: block;
+    background: rgba(0, 0, 0, .6);
+}
+
